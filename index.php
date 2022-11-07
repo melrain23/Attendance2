@@ -5,7 +5,6 @@
     require_once 'db/conn.php';
 
     $results = $crud->getSpecialties();
-
 ?>
      <!-- 
         - First name
