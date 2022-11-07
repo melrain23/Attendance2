@@ -48,11 +48,18 @@
         <input required type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
     </div>
+
     <div class="mb-3">
         <label for="phone" class="form-label">Contact Number</label>
         <input type="text" class="form-control" id="phone" name="phone" aria-describedby="phoneHelp">
         <div id="phoneHelp" class="form-text">We'll never share your number with anyone else.</div>
     </div> 
+
+    <div class="custom-file">
+        <input type="file" accept="image/*" class="custom-file-input" id="avatar" name="avatar">
+        <label class="custom-file-label" for="avatar">Choose File</label>
+        <div id="avatar" class="form-text text-danger">File upload is optional</div>
+    </div>
     
     <button type="submit" name="submit" class="btn btn-primary btn-block">Submit</button>
     </form>
